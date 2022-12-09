@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LifeMates.Core\LifeMates.Core.csproj" />
+    <ProjectReference Include="..\LifeMates.Infrastructure\LifeMates.Infrastructure.csproj" />
+    <ProjectReference Include="..\LifeMates.Storage\LifeMates.Storage.csproj" />
+    <ProjectReference Include="..\LifeMates.WebApi\LifeMates.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>
